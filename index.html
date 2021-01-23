@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>interactive audiovisual map</title>
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
+
+<style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        html, body, #map {
+            height: 100%;
+            width: 100%;
+        }
+    
+/*Your CSS here for styling*/
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+    font-size: small;
+    font-family: sans-serif;
+    background: #222;
+    color: #f4f4f4;
+    box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+}
+	</style>
+
+</head>
+<body>
+
+<div id="mapid" style="width: 100%; height: 100%;"></div>
+<script>
+
+var map = L.map('mapid').setView([-8.77596, 126.3807], 17);
+
+map.on('popupclose', function (e) {
+map.setView([-8.77596, 126.3807], 17);
+})
+
+L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+        subdomains: ['a','b','c']
+}).addTo( map );
+
+
+
+
+//Alarma
+var meIcon = L.icon({
+    iconUrl: 'pic/smartphone.svg',
+    iconSize:     [70, 50], // size of the icon
+    iconAnchor:   [30, 40], // point of the icon which will correspond to marker's location
+    popupAnchor:  [0, -35] // point from which the popup should open relative to the iconAnchor
+	});
+
+var popup =
+"<h1>Abrigo Alarma</h1><p>Making the bush into a living museum: Introduction to the hideouts or Shelters of the guerilla command in the jungle on Wasa-Diga mountain in Ossu area, Viqueque district by FFDTL General Falur Rate Laek , former guerrilla commander from Loihuno, near Ossu, based for many years on the Wasa-Diga mountain, who gave the Alarm 'shelter' it's name after a comical incident there.</p> <iframe width='302' height='220' src='https://www.youtube.com/embed/S_iFrEOqfKY' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+L.marker([
+-8.77594, 126.38022], {
+icon:meIcon
+}).addTo(map).bindPopup(popup);
+
+
+
+// Reconsiliasaun
+var meIcon1 = L.icon({
+iconUrl: 'pic/progress.svg',
+iconSize:     [70, 50], // size of the icon
+iconAnchor:   [30, 40], // point of the icon which will correspond to marker's location
+popupAnchor:  [0, -35]
+});
+
+var popup =
+"<h1>Abrigo Rekonsiliasaun</h1><p>Making the bush into a living museum: Introduction to the hideouts or Shelters of the guerilla command in the jungle on Wasa-Diga mountain in Ossu area, Viqueque district by FFDTL General Falur Rate Laek , former guerrilla commander from Loihuno, near Ossu, based for many years on the Wasa-Diga mountain, who gave the Alarm 'shelter' it's name after a comical incident there. <a href='https://www.facebook.com/audiovisualarchivetimorleste/videos/849179131918895'>More Info here</a>   </p><video width=304 height=230 controls><source src='videos/intro2.mp4' type='video/mp4'>Your browser does not support the video tag.</video>"
+			L.marker([-8.7753, 126.37999], {
+				icon:meIcon1
+			}).addTo(map).bindPopup(popup);
+
+
+// Orgaun 8
+var meIcon2 = L.icon({
+iconUrl: 'pic/progress.svg',
+iconSize:     [70, 50], // size of the icon
+iconAnchor:   [30, 40], // point of the icon which will correspond to marker's location
+popupAnchor:  [0, -35] // point from which the popup should open relative to the iconAnchor
+});
+
+var popup =
+"<h1>Abrigo Orgaun 8</h1><p>Making the bush into a living museum: Introduction to the hideouts or Shelters of the guerilla command in the jungle on Wasa-Diga mountain in Ossu area, Viqueque district by FFDTL General Falur Rate Laek , former guerrilla commander from Loihuno, near Ossu, based for many years on the Wasa-Diga mountain, who gave the Alarm 'shelter' it's name after a comical incident there. <a href='https://timorleste.github.io/viqueque'>More Viqueque Map here</a>   </p><video width=304 height=230 controls><source src='videos/intro3.mp4' type='video/mp4'>Your browser does not support the video tag.</video>"
+L.marker([-8.77482, 126.38052], {
+icon:meIcon2
+}).addTo(map).bindPopup(popup);
+
+
+// Loke Dalan
+var meIcon2 = L.icon({
+iconUrl: 'pic/progress.svg',
+iconSize:     [70, 50], // size of the icon
+iconAnchor:   [30, 40], // point of the icon which will correspond to marker's location
+popupAnchor:  [0, -35] // point from which the popup should open relative to the iconAnchor
+								});
+
+var popup =
+"<h1>Abrigo Loke Dalan</h1><p>Making the bush into a living museum: Introduction to the hideouts or Shelters of the guerilla command in the jungle on Wasa-Diga mountain in Ossu area, Viqueque district by FFDTL General Falur Rate Laek , former guerrilla commander from Loihuno, near Ossu, based for many years on the Wasa-Diga mountain, who gave the Alarm 'shelter' it's name after a comical incident there. <a href='https://timorleste.github.io/viqueque'>More Viqueque Map here</a>   </p><video width=304 height=230 controls><source src='videos/intro3.mp4' type='video/mp4'>Your browser does not support the video tag.</video>"
+L.marker([-8.77528, 126.38127], {
+icon:meIcon2
+}).addTo(map).bindPopup(popup);
+
+// Familiar
+var meIcon2 = L.icon({
+iconUrl: 'pic/progress.svg',
+iconSize:     [70, 50], // size of the icon
+iconAnchor:   [30, 40], // point of the icon which will correspond to marker's location
+popupAnchor:  [0, -35] // point from which the popup should open relative to the iconAnchor
+});
+
+var popup =
+"<h1>Abrigo Familiar</h1><p>Making the bush into a living museum: Introduction to the hideouts or Shelters of the guerilla command in the jungle on Wasa-Diga mountain in Ossu area, Viqueque district by FFDTL General Falur Rate Laek , former guerrilla commander from Loihuno, near Ossu, based for many years on the Wasa-Diga mountain, who gave the Alarm 'shelter' it's name after a comical incident there. <a href='https://timorleste.github.io/viqueque'>More Viqueque Map here</a>   </p><video width=304 height=230 controls><source src='videos/intro3.mp4' type='video/mp4'>Your browser does not support the video tag.</video>"
+L.marker([-8.77568, 126.38172], {
+icon:meIcon2
+}).addTo(map).bindPopup(popup);
+
+
+
+
+// River Swim
+var meIcon2 = L.icon({
+iconUrl: 'pic/swim.svg',
+iconSize:     [70, 50], // size of the icon
+iconAnchor:   [30, 40], // point of the icon which will correspond to marker's location
+popupAnchor:  [0, -35] // point from which the popup should open relative to the iconAnchor
+});
+
+var popup =
+"<h1>Natural Swimming Pool</h1><p>Making the bush into a living museum: Introduction to the hideouts or Shelters of the guerilla command in the jungle on Wasa-Diga mountain in Ossu area, Viqueque district by FFDTL General Falur Rate Laek , former guerrilla commander from Loihuno, near Ossu, based for many years on the Wasa-Diga mountain, who gave the Alarm 'shelter' it's name after a comical incident there.<a href='https://timorleste.github.io/directions/'>Check out direction map from Dili to Viqueque</a></p><video width=304 height=230 controls><source src='videos/maxstahl-swim.mp4' type='video/mp4'>Your browser does not support the video tag.</video>"
+L.marker([
+-8.77714, 126.37886], {
+icon:meIcon2
+}).addTo(map).bindPopup(popup);
+
+
+</script>
+
+</body>
+</html>
