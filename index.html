@@ -61,17 +61,25 @@ L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> Contributors &copy; <a href="https://github.com/timorleste">CAMSTL</a>',
         subdomains: ['a','b','c']
 }).addTo( map );
-		
 
+		
 //Add Location Options 
-var locator = L.control.locate({
-    position: 'topleft',
-    strings: {
-        title: "Hau iha ne'e"
-    }
-}).addTo(map);
+    var locOptions = {
+      drawCircle: false,
+      showPopup: false,
+      follow:true,
+    };
+
+//Add Location
+    var loc = L.control.locate(locOptions).addTo(map);
+    
+//Endable Location 
+    loc.start();
+
+    var marker, circle, lat, lng; //create variables 
+
 	
-	
+
 //Alarma
 var meIcon = L.icon({
 iconUrl: 'pic/smartphone.svg',
@@ -156,7 +164,7 @@ popupAnchor:  [0, -35]
 });
 
 var popup =
-"<h1>Natural Swimming Pool</h1><p>Making the bush into a living museum: Introduction to the hideouts or Shelters of the guerilla command in the jungle on Wasa-Diga mountain in Ossu area, Viqueque district by FFDTL General Falur Rate Laek, former guerrilla commander from Loihuno, near Ossu, based for many years on the Wasa-Diga mountain, who gave the Alarm 'shelter' it's name after a comical incident there.<a href='https://www.google.com/maps/place/Hotel+Comunitaria+Wailakurini/@-8.7787828,126.3776388,17z/'>Check out direction map from Dili to Viqueque</a></p><video width=304 height=230 controls><source src='videos/maxstahl-swim.mp4' type='video/mp4'>Your browser does not support the video tag.</video>"
+"<h1>Natural Swimming Pool</h1><p>Making the bush into a living museum: Introduction to the hideouts or Shelters of the guerilla command in the jungle on Wasa-Diga mountain in Ossu area, Viqueque district by FFDTL General Falur Rate Laek, former guerrilla commander from Loihuno, near Ossu, based for many years on the Wasa-Diga mountain, who gave the Alarm 'shelter' it's name after a comical incident there.<a href='https://www.google.com/maps?saddr=My+Location&daddr=Centro+Audiovisual+Max Stahl+Timor Leste'> Check out direction map from Dili to Viqueque</a></p><video width=304 height=230 controls><source src='videos/maxstahl-swim.mp4' type='video/mp4'>Your browser does not support the video tag.</video>"
 L.marker([-8.77718, 126.3787], {
 icon:meIcon2
 }).addTo(map).bindPopup(popup);
