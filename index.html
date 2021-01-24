@@ -56,6 +56,23 @@ L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         subdomains: ['a','b','c']
 }).addTo( map );
 
+	
+//Add Location Options 
+    var locOptions = {
+      drawCircle: false,
+      showPopup: false,
+      follow:true,
+    };
+
+//Add Location
+    var loc = L.control.locate(locOptions).addTo(map);
+    
+//Endable Location 
+    loc.start();
+
+    var marker, circle, lat, lng; //create variables 
+
+	
 
 //Alarma
 var meIcon = L.icon({
