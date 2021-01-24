@@ -63,23 +63,30 @@ L.tileLayer( 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo( map );
 
 		
+
+
+	
+	
+	
+
 //Add Location Options 
-    var locOptions = {
-      drawCircle: false,
-      showPopup: false,
-      follow:true,
-    };
+var locator = L.control.locate({
+    position: 'topleft',
+    strings: {
+        title: "Hau iha ne'e"
+    }
+}).addTo(map);
 
-//Add Location
-    var loc = L.control.locate(locOptions).addTo(map);
-    
-//Endable Location 
-    loc.start();
 
-    var marker, circle, lat, lng; //create variables 
+
 
 	
 
+	
+	
+	
+	
+	
 //Alarma
 var meIcon = L.icon({
 iconUrl: 'pic/smartphone.svg',
