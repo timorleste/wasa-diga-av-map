@@ -1,4 +1,3 @@
-
 L.LocShare = {}
 var LS = L.LocShare
 LS.Send = {}
