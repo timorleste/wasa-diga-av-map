@@ -8,14 +8,14 @@ LS.Receive = {}
 LS.Receive.Marker = {}
 LS.Receive.Popup = L.popup()
 var sendIcon = L.icon({
-  iconUrl: "https://raw.githubusercontent.com/CliffCloud/Leaflet.LocationShare/master/dist/images/IconMapSend.png",
+  iconUrl: "/images/IconMapSend.png",
   iconSize:     [50, 50], // size of the icon
   iconAnchor:   [25, 50], // point of the icon which will correspond to marker's location
   popupAnchor:  [0, -30] // point from which the popup should open relative to the iconAnchor
 })
 
 receiveIcon = L.icon({
-  iconUrl: "https://raw.githubusercontent.com/CliffCloud/Leaflet.LocationShare/master/dist/images/IconMapReceive.png",
+  iconUrl: "/images/IconMapReceive.png",
   iconSize:     [50, 50], // size of the icon
   iconAnchor:   [25, 50], // point of the icon which will correspond to marker's location
   popupAnchor:  [0, -30] // point from which the popup should open relative to the iconAnchor
@@ -41,7 +41,7 @@ L.Control.ShareLocation = L.Control.extend({
         this.link = L.DomUtil.create('a', 'leaflet-bar-part', container);
         this.link.title = this.options.title;
         var userIcon = L.DomUtil.create('img' , 'img-responsive' , this.link);
-        userIcon.src = 'https://raw.githubusercontent.com/CliffCloud/Leaflet.LocationShare/master/dist/images/IconLocShare.png';
+        userIcon.src = '/images/IconLocShare.png';
         userIcon.alt = '';
         userIcon.setAttribute('role', 'presentation');
         this.link.href = '#';
