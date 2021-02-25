@@ -10,7 +10,7 @@ After independence, the community which supported the guerrilla struggle led in 
 [Track_Metadata 2017]
 Audiovisual Metadata Link to Archive: http://camstl.uc.pt/index.php?urlaction=doc&id_doc=12431&rang=11
 
-GeoReference Municipality Suco Boundaries Map Development:
+For a complete list of attributes, see the GeoReference Municipality Suco Boundaries:
 
 [Version_01 - AILEU Map Info](https://timorleste.github.io/aileu "Suco Map")
 
