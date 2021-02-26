@@ -10,7 +10,7 @@ After independence, the community which supported the guerrilla struggle led in 
 [Track_Metadata 2017]
 Audiovisual Metadata Link to Archive: http://camstl.uc.pt/index.php?urlaction=doc&id_doc=12431&rang=11
 
-The workflow:
+The Audiovisual Archive General Workflow
 ![alt text](https://github.com/timorleste/wasa-diga-av-map/blob/main/images/the-av-workflow.jpg?raw=true)
 
 For a complete list of attributes, see the GeoReference Municipality Suco Boundaries:
