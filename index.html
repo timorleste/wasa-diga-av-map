@@ -71,9 +71,6 @@ L.tileLayer( 'https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png',   {
         subdomains: ['a','b','c']
 	
 	
-
-	
-	
 }).addTo( map );
 
 //Location Control		
@@ -84,9 +81,8 @@ var locator = L.control.locate({
     }
 }).addTo(map);
 	
-	
-	
-//Legend
+		
+//Legend-QR
 
 L.Control.Watermark = L.Control.extend({
     onAdd: function(map) {
@@ -108,9 +104,7 @@ L.control.watermark = function(opts) {
 }
 
 L.control.watermark({ position: 'topright' }).addTo(map);
-			
-	
-	
+				
 
 //Alarma
 var meIcon = L.icon({
@@ -138,7 +132,6 @@ var popup =
 L.marker([-8.7746, 126.38097], {icon:meIcon1}).addTo(map).bindPopup(popup);
 
 
-
 // Orgaun8
 var meIcon2 = L.icon({
 iconUrl: 'pic/smartphone.svg',
@@ -150,7 +143,6 @@ popupAnchor:  [0, -30]
 var popup =
 "<h1>Abrigo Orgaun 8</h1><p>Making the bush into a living museum: Introduction to the hideouts or Shelters of the guerilla command in the jungle on Wasa-Diga mountain in Ossu area, Viqueque district by FFDTL General Falur Rate Laek, former guerrilla commander from Loihuno, near Ossu, based for many years on the Wasa-Diga mountain, who gave the Alarm 'shelter' it's name after a comical incident there. [Track_3_Metadata 2017] <a href='https://timorleste.github.io/viqueque'>Viqueque Suco Map</a>   </p><video width=304 height=230 controls><source src='videos/intro3.mp4' type='video/mp4'>Your browser does not support the video tag.</video>"
 L.marker([-8.77466, 126.38156], {icon:meIcon2}).addTo(map).bindPopup(popup);
-
 
 
 // Loke Dalan
@@ -177,7 +169,6 @@ popupAnchor:  [0, -30]
 var popup =
 "<h1>Abrigo Familiar</h1><p>Making the bush into a living museum: Introduction to the hideouts or Shelters of the guerilla command in the jungle on Wasa-Diga mountain in Ossu area, Viqueque district by FFDTL General Falur Rate Laek, former guerrilla commander from Loihuno, near Ossu, based for many years on the Wasa-Diga mountain, who gave the Alarm 'shelter' it's name after a comical incident there. [Track_5_Metadata 2017] <a href='https://timorleste.github.io/viqueque'>Viqueque Suco Map</a>   </p><video width=304 height=230 controls><source src='videos/intro3.mp4' type='video/mp4'>Your browser does not support the video tag.</video>"
 L.marker([-8.77554, 126.38223], {icon:meIcon2}).addTo(map).bindPopup(popup);
-
 
 
 // River Swim
