@@ -9,7 +9,7 @@ The Alarm base, christened after an incident involving a loudhailer which the Co
 After independence, the community which supported the guerrilla struggle led in this area by Commander Falur Rate Laek and others (including later Presidents Taur Matan Ruak and Lu Olu), built paths, ladders and balconies that now make it possible - even easy - to approach the historic "Bases of the Guerrilla Command". This short film, designed for a mobile phone App to be taken along on a visit, shows how it was before, when the "estafetas” (messengers) came up the sheer rock cliffs using bird calls and codes to warn of their approach to the once inaccessible network of bases.
 
 [Track_Metadata 2017]
-Audiovisual Archive Metadata-Storyboard: http://camstl.uc.pt/index.php?urlaction=doc&id_doc=12431&rang=11
+Audiovisual Archive Storyboard: http://camstl.uc.pt/index.php?urlaction=doc&id_doc=12431&rang=11
 ![alt text](https://github.com/timorleste/wasa-diga-av-map/blob/main/images/alarma.png?raw=true)
 
 The Audiovisual Archive General Workflow
