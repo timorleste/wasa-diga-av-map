@@ -7,6 +7,7 @@ Within a few hundred meters of a permanent Indonesian base, and even closer to t
 The Alarm base, christened after an incident involving a loudhailer which the Commander did not know how to use, was part of a network of mobile bases or guerrilla shelters (“abrigos”), used intermittently, for a few weeks at a time, to consult, discuss and communicate plans with the Clandestine Front supporting them, and through them with the community living under Indonesian control and their intelligence operatives working inside the Indonesian military command.
 
 After independence, the community which supported the guerrilla struggle led in this area by Commander Falur Rate Laek and others (including later Presidents Taur Matan Ruak and Lu Olu), built paths, ladders and balconies that now make it possible - even easy - to approach the historic "Bases of the Guerrilla Command". This short film, designed for a mobile phone App to be taken along on a visit, shows how it was before, when the "estafetas” (messengers) came up the sheer rock cliffs using bird calls and codes to warn of their approach to the once inaccessible network of bases.
+
 [Track_Metadata 2017]
 Audiovisual Archive Metadata-Storyboard: http://camstl.uc.pt/index.php?urlaction=doc&id_doc=12431&rang=11
 ![alt text](https://github.com/timorleste/wasa-diga-av-map/blob/main/images/alarma.png?raw=true)
