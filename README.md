@@ -1,5 +1,5 @@
 # abrigo wasa-diga-av-mobile-map
-![alt text](https://github.com/timorleste/wasa-diga-av-map/blob/main/images/wasa-diga.png?raw=true)
+![alt text](https://github.com/timorleste/wasa-diga-av-map/blob/main/images/readme-wasa-diga.png?raw=true)
 Making the bush into a living museum: Introduction to the hideouts or Shelters of the guerilla command in the jungle on Wasa-Diga mountain in Ossu area, Viqueque district by FFDTL General Falur Rate Laek, former guerrilla commander from Loihuno, near Ossu, based for many years on the Wasa-Diga mountain, who gave the Alarm 'shelter' it's name after a comical incident there. 
 
 Within a few hundred meters of a permanent Indonesian base, and even closer to the family home of Commander Falur Rate Laek and the FALINTIL guerrillas under his command, there was a mobile base they called "Alarm". In this short film designed for a mobile phone app, the Commander who once led the struggle in this area explains how the guerrillas used this base, while the guerrilla veterans rehearse how things were during the war they fought "inside the belly of their enemy".
@@ -8,7 +8,8 @@ The Alarm base, christened after an incident involving a loudhailer which the Co
 
 After independence, the community which supported the guerrilla struggle led in this area by Commander Falur Rate Laek and others (including later Presidents Taur Matan Ruak and Lu Olu), built paths, ladders and balconies that now make it possible - even easy - to approach the historic "Bases of the Guerrilla Command". This short film, designed for a mobile phone App to be taken along on a visit, shows how it was before, when the "estafetas” (messengers) came up the sheer rock cliffs using bird calls and codes to warn of their approach to the once inaccessible network of bases.
 [Track_Metadata 2017]
-Audiovisual Metadata Link to Archive: http://camstl.uc.pt/index.php?urlaction=doc&id_doc=12431&rang=11
+Audiovisual Archive Metadata-Storyboard: http://camstl.uc.pt/index.php?urlaction=doc&id_doc=12431&rang=11
+![alt text](https://github.com/timorleste/wasa-diga-av-map/blob/main/images/alarma?raw=true)
 
 The Audiovisual Archive General Workflow
 ![alt text](https://github.com/timorleste/wasa-diga-av-map/blob/main/images/the-av-workflow.jpg?raw=true)
