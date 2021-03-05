@@ -15,7 +15,7 @@ After independence, the community which supported the guerrilla struggle led in 
 The Audiovisual Archive General Workflow
 ![alt text](https://github.com/timorleste/wasa-diga-av-map/blob/main/images/the-av-workflow.jpg?raw=true)
 
-For a complete list of attributes, see the GeoReference Municipality Suco Boundaries:
+Geodatabase-Georeference Preservation:
 
 [Version_01 - AILEU Map Info](https://timorleste.github.io/aileu "Suco Map")
 
@@ -44,8 +44,6 @@ For a complete list of attributes, see the GeoReference Municipality Suco Bounda
 [Version_01 - OECUSSE Map Info](https://timorleste.github.io/oecusse "Suco Map")
 
 [Version_01 - VIQUEQUE Map Info](https://timorleste.github.io/viqueque "Suco Map")
-
-GeoReference GIS Development:
 
 [Version_01 - Elevation Map](https://timorleste.github.io/waterbodies "Waterbodies-Elevation Map")
 
@@ -90,7 +88,3 @@ GeoReference GIS Development:
 [Version_01 - Cluster Map Overlay settlements](https://timorleste.github.io/settlements-cluster-maps "Cluster Map Overlay settlements")
 
 [Version_01 - Search Suco name - Measure Settlements](https://timorleste.github.io/search-suco-measure "Search Suco name - Measure Settlements")
-
-
-
-
