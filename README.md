@@ -15,6 +15,8 @@ After independence, the community which supported the guerrilla struggle led in 
 The Audiovisual Archive General Workflow
 ![alt text](https://github.com/timorleste/wasa-diga-av-map/blob/main/images/the-av-workflow.jpg?raw=true)
 
+![alt text](https://github.com/timorleste/wasa-diga-av-map/blob/main/images/localhost-geodatabase.png?raw=true)
+
 Geodatabase-Georeference Preservation:
 
 [Version_01 - AILEU Map Info](https://timorleste.github.io/aileu "Suco Map")
