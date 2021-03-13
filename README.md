@@ -1,4 +1,5 @@
 # abrigo wasa-diga-av-mobile-map
+Article inspiration: 
 ![alt text](https://github.com/timorleste/wasa-diga-av-map/blob/main/images/the_city_as_computer.png?raw=true)
 
 ![alt text](https://github.com/timorleste/wasa-diga-av-map/blob/main/images/readme-wasa-diga.png?raw=true)
